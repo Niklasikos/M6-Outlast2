@@ -11,6 +11,6 @@ public class Grass : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = Vector3.up*Mathf.Sin(Time.time) * 0.1f;
     }
 }
